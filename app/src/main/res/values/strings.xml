@@ -1,3 +1,10 @@
 <resources>
     <string name="app_name">ToDoList</string>
+    <string name="title_label">Task</string>
+    <string name="title_hint">Enter your task..</string>
+    <string name="priority">Priority</string>
+    <string name="red">High</string>
+    <string name="orange">Medium</string>
+    <string name="yellow">Low</string>
+    <string name="chip">1</string>
 </resources>
