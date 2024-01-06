@@ -12,7 +12,7 @@ ls"
         android:layout_height="wrap_content"
         android:text="@string/title_label"/>
     <EditText
-        android:id="@+id/crime_title"
+        android:id="@+id/title"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:hint="@string/title_hint"/>
@@ -29,21 +29,21 @@ ls"
         android:layout_gravity="center">
 
         <RadioButton
-            android:id="@+id/radioButton"
+            android:id="@+id/radioRed"
             android:layout_width="100dp"
             android:layout_height="wrap_content"
             android:background="@color/red"
             android:text="@string/red" />
 
         <RadioButton
-            android:id="@+id/radioButton2"
+            android:id="@+id/radioOrange"
             android:layout_width="100dp"
             android:layout_height="wrap_content"
             android:background="@color/orange"
             android:text="@string/orange" />
 
         <RadioButton
-            android:id="@+id/radioButton3"
+            android:id="@+id/radioYellow"
             android:layout_width="100dp"
             android:layout_height="wrap_content"
             android:background="@color/yellow"
@@ -52,10 +52,9 @@ ls"
     </RadioGroup>
 
     <Button
-        android:id="@+id/crime_date"
+        android:id="@+id/add"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:background="@color/colorPrimary"
-        android:text="Add"
-        tools:text="Wed Nov 14 11:56 EST2018" />
+        android:text="Add"/>
 </LinearLayout>

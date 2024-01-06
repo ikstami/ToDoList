@@ -6,7 +6,7 @@ import java.sql.Types.NULL
 import java.util.UUID
 
 @Entity
-data class Thing(
+data class Task(
     @PrimaryKey
     val id: UUID = UUID.randomUUID(),
     var title: String = "",
